@@ -1,0 +1,41 @@
+*{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: block;
+    line-height: 0;
+    clear: both;
+}
+
+html{
+    background-color: #00BF83;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container{
+    width: 768px;
+    height: 1024px;
+    background-color: #007F58;
+    margin: 0 auto;
+}
+
+#header{
+    height: 50px;
+    background-color: #DB19FF;
+}
+
+#menu li{
+    list-style: none;
+    float: right;
+    margin-right: 15px;
+    line-height: 45px;
+}
