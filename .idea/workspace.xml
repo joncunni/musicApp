@@ -37,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="-3.7916667" vertical-offset="209" max-vertical-offset="1275">
+            <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="-4.4166665" vertical-offset="194" max-vertical-offset="1275">
               <folding>
                 <marker date="1398353861000" expanded="true" signature="935:1058" placeholder="..." />
                 <marker date="1398353861000" expanded="true" signature="1004:1036" placeholder="..." />
@@ -50,7 +50,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="21" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.8203593" vertical-offset="440" max-vertical-offset="1305">
+            <state line="40" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.1017964" vertical-offset="515" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -238,7 +238,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="-3.7916667" vertical-offset="209" max-vertical-offset="1275">
+        <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="-4.4166665" vertical-offset="194" max-vertical-offset="1275">
           <folding>
             <marker date="1398353861000" expanded="true" signature="935:1058" placeholder="..." />
             <marker date="1398353861000" expanded="true" signature="1004:1036" placeholder="..." />
@@ -249,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="21" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.8203593" vertical-offset="440" max-vertical-offset="1305">
+        <state line="40" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.1017964" vertical-offset="515" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
