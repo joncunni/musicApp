@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcff68c2-71d5-4b51-ac3b-cc951b724c56" name="Default" comment="" />
+    <list default="true" id="bcff68c2-71d5-4b51-ac3b-cc951b724c56" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/anarchy.jpeg" afterPath="$PROJECT_DIR$/img/anarchy.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/critically.jpg" afterPath="$PROJECT_DIR$/img/critically.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/pink.png" afterPath="$PROJECT_DIR$/img/pink.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/albums.html" afterPath="$PROJECT_DIR$/albums.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="musicApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +41,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1260">
+            <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
               <folding>
                 <marker date="1398355364000" expanded="true" signature="890:1013" placeholder="..." />
                 <marker date="1398355364000" expanded="true" signature="959:991" placeholder="..." />
@@ -48,7 +54,7 @@
       <file leaf-file-name="albums.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/albums.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.16646115" vertical-offset="0" max-vertical-offset="811">
+            <state line="14" column="44" selection-start="416" selection-end="416" vertical-scroll-proportion="0.2589396" vertical-offset="0" max-vertical-offset="811">
               <folding />
             </state>
           </provider>
@@ -57,7 +63,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
+            <state line="40" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -244,6 +250,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
+          <folding>
+            <marker date="1398355364000" expanded="true" signature="890:1013" placeholder="..." />
+            <marker date="1398355364000" expanded="true" signature="959:991" placeholder="..." />
+            <marker date="1398355364000" expanded="true" signature="1128:1208" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albums.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.getIgnore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1275">
           <folding>
             <marker date="1398355364000" expanded="true" signature="890:1013" placeholder="..." />
@@ -281,7 +319,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1260">
+        <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
           <folding>
             <marker date="1398355364000" expanded="true" signature="890:1013" placeholder="..." />
             <marker date="1398355364000" expanded="true" signature="959:991" placeholder="..." />
@@ -292,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/albums.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.16646115" vertical-offset="0" max-vertical-offset="811">
+        <state line="14" column="44" selection-start="416" selection-end="416" vertical-scroll-proportion="0.2589396" vertical-offset="0" max-vertical-offset="811">
           <folding />
         </state>
       </provider>
