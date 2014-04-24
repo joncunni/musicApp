@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcff68c2-71d5-4b51-ac3b-cc951b724c56" name="Default" comment="" />
+    <list default="true" id="bcff68c2-71d5-4b51-ac3b-cc951b724c56" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="musicApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +26,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".getIgnore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".getIgnore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.getIgnore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="-3.7916667" vertical-offset="209" max-vertical-offset="1275">
+              <folding>
+                <marker date="1398353861000" expanded="true" signature="935:1058" placeholder="..." />
+                <marker date="1398353861000" expanded="true" signature="1004:1036" placeholder="..." />
+                <marker date="1398353861000" expanded="true" signature="1173:1253" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="20" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.8742515" vertical-offset="275" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -46,16 +71,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/.gitIgnore" />
         <option value="$PROJECT_DIR$/.getIgnore" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="117" />
+    <option name="x" value="218" />
+    <option name="y" value="116" />
     <option name="width" value="1425" />
     <option name="height" value="932" />
   </component>
@@ -103,6 +128,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -144,7 +183,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="117" width="1425" height="932" extended-state="0" />
+    <frame x="218" y="116" width="1425" height="932" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -184,16 +223,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="989" selection-end="989" vertical-scroll-proportion="1.1317365" vertical-offset="0" max-vertical-offset="1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="557" selection-end="557" vertical-scroll-proportion="0.3699137" vertical-offset="0" max-vertical-offset="811" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="811">
@@ -204,6 +233,24 @@
     <entry file="file://$PROJECT_DIR$/.getIgnore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="-3.7916667" vertical-offset="209" max-vertical-offset="1275">
+          <folding>
+            <marker date="1398353861000" expanded="true" signature="935:1058" placeholder="..." />
+            <marker date="1398353861000" expanded="true" signature="1004:1036" placeholder="..." />
+            <marker date="1398353861000" expanded="true" signature="1173:1253" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="20" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.8742515" vertical-offset="275" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
