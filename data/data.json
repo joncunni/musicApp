@@ -1,0 +1,518 @@
+{
+	"songs": [
+		{
+			"id": 1,
+			"title": "Belt",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/1.mp3"
+		},
+		{
+			"id": 2,
+			"title": "Woe",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/2.mp3"
+		},
+		{
+			"id": 3,
+			"title": "The Writhing South",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/3.mp3"
+		},
+        {
+        	"id": 4,
+			"title": "Alive With The Glory Of Love",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/4.mp3"
+        },
+        {
+        	"id": 5,
+			"title": "Yellow Cat (Slash) Red Cat",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/5.mp3"
+        },
+        {
+        	"id": 6,
+			"title": "The Futile",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/6.mp3"
+        },
+        {
+        	"id": 7,
+			"title": "Spidersong",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/7.mp3"
+        },
+        {
+        	"id": 8,
+			"title": "An Orgy Of Critics",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/8.mp3"
+        },
+        {
+        	"id": 9,
+			"title": "Every Man Has A Molly",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/9.mp3"
+        },
+        {
+        	"id": 10,
+			"title": "Slowly, Through A Vector",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/10.mp3"
+        },
+        {
+        	"id": 11,
+			"title": "Chia-Like, I Shall Grow",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/11.mp3"
+        },
+        {
+        	"id": 12,
+			"title": "I Want To Know Your Plans",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/12.mp3"
+        },
+        {
+        	"id": 13,
+			"title": "Admit It!!!",
+			"artist": "Say Anything",
+			"album": "...Is A Real Boy",
+			"genre": "Alternative",
+			"file": "songs/13.mp3"
+        },
+		{
+			"id": 14,
+			"title": "Hope The Rock Show Goes Good",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/14.mp3"
+		},
+		{
+			"id": 15,
+			"title": "Flop Culture",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/15.mp3"
+		},
+		{
+			"id": 16,
+			"title": "Six Candles",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/16.mp3"
+		},
+		{
+			"id": 17,
+			"title": "The Next Big Thing",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/17.mp3"
+		},
+		{
+			"id": 18,
+			"title": "America's Next Freak",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/18.mp3"
+		},
+		{
+			"id": 19,
+			"title": "Tonight",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/19.mp3"
+		},
+		{
+			"id": 20,
+			"title": "The Video Store",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/20.mp3"
+		},
+		{
+			"id": 21,
+			"title": "Girl Of The Year",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/21.mp3"
+		},
+		{
+			"id": 22,
+			"title": "Nice Piece Of Art",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/22.mp3"
+		},
+		{
+			"id": 23,
+			"title": "What It Feels Like",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/23.mp3"
+		},
+		{
+			"id": 24,
+			"title": "Waste Of Time",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/24.mp3"
+		},
+		{
+			"id": 25,
+			"title": "Moment Of Truth",
+			"artist": "FM Static",
+			"album": "Critically Ashamed",
+			"genre": "Rock",
+			"file": "songs/25.mp3"
+		},
+		{
+			"id": 26,
+			"title": "Three Days Later",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/26.mp3"
+		},
+		{
+			"id": 27,
+			"title": "Crazy Mary",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/27.mp3"
+		},
+		{
+			"id": 28,
+			"title": "Something To Believe In",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/28.mp3"
+		},
+		{
+			"id": 29,
+			"title": "Definitely Maybe",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/29.mp3"
+		},
+		{
+			"id": 30,
+			"title": "Donna",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/30.mp3"
+		},
+		{
+			"id": 31,
+			"title": "All The Days",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/31.mp3"
+		},
+		{
+			"id": 32,
+			"title": "Hold Me Twice",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/32.mp3"
+		},
+		{
+			"id": 33,
+			"title": "The Notion",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/33.mp3"
+		},
+		{
+			"id": 34,
+			"title": "October",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/34.mp3"
+		},
+		{
+			"id": 35,
+			"title": "My First Stereo",
+			"artist": "FM Static",
+			"album": "What Are You Waiting For",
+			"genre": "Rock",
+			"file": "songs/35.mp3"
+		},
+		{
+			"id": 36,
+			"title": "Get The Party Started",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/36.mp3"
+		},
+		{
+			"id": 37,
+			"title": "There You Go",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/37.mp3"
+		},
+		{
+			"id": 38,
+			"title": "Don't Let Me Get Me",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/38.mp3"
+		},
+		{
+			"id": 39,
+			"title": "Just Like A Pill",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/39.mp3"
+		},
+		{
+			"id": 40,
+			"title": "Family Portrait",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/40.mp3"
+		},
+		{
+			"id": 41,
+			"title": "Trouble",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/41.mp3"
+		},
+		{
+			"id": 42,
+			"title": "Stupid Girls",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/42.mp3"
+		},
+		{
+			"id": 43,
+			"title": "Who Knew",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/43.mp3"
+		},
+		{
+			"id": 44,
+			"title": "U + Ur Hand",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/44.mp3"
+		},
+		{
+			"id": 45,
+			"title": "Dear Mr. President",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/45.mp3"
+		},
+		{
+			"id": 46,
+			"title": "So What",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/46.mp3"
+		},
+		{
+			"id": 47,
+			"title": "Sober",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/47.mp3"
+		},
+		{
+			"id": 48,
+			"title": "Please Don't Leave Me",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/48.mp3"
+		},
+		{
+			"id": 49,
+			"title": "Funhouse",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/49.mp3"
+		},
+		{
+			"id": 50,
+			"title": "I Don't Believe You",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/50.mp3"
+		},
+		{
+			"id": 51,
+			"title": "Glitter In The Air",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/51.mp3"
+		},
+		{
+			"id": 52,
+			"title": "Raise Your Glass",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/52.mp3"
+		},
+		{
+			"id": 53,
+			"title": "F**kin' Perfect",
+			"artist": "P!nk",
+			"album": "Greatest Hits...So Far!!!",
+			"genre": "Pop",
+			"file": "songs/53.mp3"
+		},
+		{
+			"id": 54,
+			"title": "Burn A Miracle",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/54.mp3"
+		},
+		{
+			"id": 55,
+			"title": "Say Anything",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/55.mp3"
+		},
+		{
+			"id": 56,
+			"title": "Night's Song",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/56.mp3"
+		},
+		{
+			"id": 57,
+			"title": "Admit It Again",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/57.mp3"
+		},
+		{
+			"id": 58,
+			"title": "So Good",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/58.mp3"
+		},
+		{
+			"id": 59,
+			"title": "Sheep",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/59.mp3"
+		},
+		{
+			"id": 60,
+			"title": "Peace Out",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/60.mp3"
+		},
+		{
+			"id": 61,
+			"title": "Overbiter",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/61.mp3"
+		},
+		{
+			"id": 62,
+			"title": "Of Steel",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/62.mp3"
+		},
+		{
+			"id": 63,
+			"title": "Anarchy, My Dear",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/63.mp3"
+		},
+		{
+			"id": 64,
+			"title": "The Stephen Hawking",
+			"artist": "Say Anything",
+			"album": "Anarchy, My Dear",
+			"genre": "Alternative",
+			"file": "songs/64.mp3"
+		}
+	],
+	
+	"genres": ["Alternative", "Pop", "Rock"]
+}
