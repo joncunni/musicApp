@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Music App: album page</title>
@@ -26,9 +25,13 @@
         <img class="album" id="album3" src="img/pink.jpg" alt="pink">
         <img class="album" id="album4" src="img/realBoy.jpg" alt="realBoy">
         <img class="album" id="album5" src="img/waywf.jpg" alt="way">
-        <div id="albumInfo"></div>
-        <div id="trackInfo"></div>
     </div>
+    
+    
+        <div id="aI" style="visibility:hidden">
+		<div id="albumInfo"></div>
+    	<div id="trackInfo"></div>
+    	</div>
     
      <script id="songHomeLinks" type="text/x-handlebars-template">
 			<ul class="songs_list">
@@ -52,34 +55,48 @@
 											
 		$.getJSON('data/data.json', function(data) {
 			songs = data.songs;
-			//albumDiv.html(albumLinkTemplate(data.albums));
 		})
 			
 		$("#album1").mouseover(function() {
 			$.get("albums/album1.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Anarchy, My Dear";
+			$("#aI").css("background-image","url(img/aiback.png)");
+			TweenLite.to(
+			$("#aI"), .7, {x:320})
 			});
 			
 		$("#album2").mouseover(function() {
 			$.get("albums/album2.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Critically Ashamed";
+			$("#aI").css("background-image","url(img/aiback.png)");
+			TweenLite.to(
+			$("#aI"), .7, {x:470})
 			});	
 		$("#album3").mouseover(function() {
 			$.get("albums/album3.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Greatest Hits...So Far!!!";
+			$("#aI").css("background-image","url(img/aiback.png)");
+			TweenLite.to(
+			$("#aI"), .7, {x:620})
 			});
 		$("#album4").mouseover(function() {
 			$.get("albums/album4.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "...Is A Real Boy";
+			$("#aI").css("background-image","url(img/aiback2.png)");
+			TweenLite.to(
+			$("#aI"), .7, {x:600})
 			});
 		$("#album5").mouseover(function() {
 			$.get("albums/album5.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "What Are You Waiting For";
+			$("#aI").css("background-image","url(img/aiback2.png)");
+			TweenLite.to(
+			$("#aI"), .7, {x:750})
 			});
 				
 		$(".album").each(function() {
@@ -91,6 +108,7 @@
 			})
 		$(".album")
 			.mouseover(function() {
+				$("#aI").css("visibility", "visible");
 				results.songs = _.where(songs, {album: albumToFind});
 					
 				trackInfo.html(songLinkTemplate(results));
