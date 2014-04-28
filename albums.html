@@ -26,35 +26,91 @@
         <img class="album" id="album3" src="img/pink.jpg" alt="pink">
         <img class="album" id="album4" src="img/realBoy.jpg" alt="realBoy">
         <img class="album" id="album5" src="img/waywf.jpg" alt="way">
+        <div id="albumInfo"></div>
+        <div id="trackInfo"></div>
     </div>
     
-	<script>
+     <script id="songHomeLinks" type="text/x-handlebars-template">
+			<ul class="songs_list">
+				{{#each songs}}
+					<li class="songLink" data-id="{{this.id}}">
+						{{this.title}}
+					</li>
+				{{/each}}
+		</ul>
+	 </script>
+    
+    <script>
 	$(document).ready(function() {
+		var songs;
+		var albumToFind;
+		var results = {};
+		var trackInfo = $("#trackInfo");
+				
+		var songLinkTemplate = Handlebars.compile($("#songHomeLinks").html());
+				
+											
+		$.getJSON('data/data.json', function(data) {
+			songs = data.songs;
+			//albumDiv.html(albumLinkTemplate(data.albums));
+		})
+			
+		$("#album1").mouseover(function() {
+			$.get("albums/album1.html", function(data) {
+			$("#albumInfo").html(data); })
+			albumToFind = "Anarchy, My Dear";
+			});
+			
+		$("#album2").mouseover(function() {
+			$.get("albums/album2.html", function(data) {
+			$("#albumInfo").html(data); })
+			albumToFind = "Critically Ashamed";
+			});	
+		$("#album3").mouseover(function() {
+			$.get("albums/album3.html", function(data) {
+			$("#albumInfo").html(data); })
+			albumToFind = "Greatest Hits...So Far!!!";
+			});
+		$("#album4").mouseover(function() {
+			$.get("albums/album4.html", function(data) {
+			$("#albumInfo").html(data); })
+			albumToFind = "...Is A Real Boy";
+			});
+		$("#album5").mouseover(function() {
+			$.get("albums/album5.html", function(data) {
+			$("#albumInfo").html(data); })
+			albumToFind = "What Are You Waiting For";
+			});
+				
 		$(".album").each(function() {
-						TweenLite.to(
-								this,
-								.7,
-								{scale: 1}
-						);
-					})
+			TweenLite.to(
+				this,
+				.7,
+				{scale: 1}
+				)
+			})
 		$(".album")
 			.mouseover(function() {
-						$(this)
-						TweenLite.to(
-							this,
-							.7,
-							{scale:2}
-						)
-					})
-					.mouseout(function() {
-						$(this)
-						TweenLite.to(
-							this,
-							.7,
-							{scale:1}
-						)
-					})
+				results.songs = _.where(songs, {album: albumToFind});
+					
+				trackInfo.html(songLinkTemplate(results));
+				$(this)
+					TweenLite.to(
+					this,
+					.7,
+					{scale:2}
+				)
+			})
+			.mouseout(function() {
+				$(this)
+				TweenLite.to(
+				this,
+				.7,
+				{scale:1}
+				)
+			})
 	})
+	
 	</script>
     
 </body>
