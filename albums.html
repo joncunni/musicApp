@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Music App: home page</title>
+    <title>Music App: album page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/minified/TweenLite.min.js"></script>
+    <script src="js/minified/plugins/CSSPlugin.min.js"></script>
 	<script src="js/handlebars-v1.3.0.js"></script>
     <script src="js/underscore-min.js"></script>
 </head>
@@ -19,14 +21,41 @@
         </ul>
     </div>
     <div id="container">
-        <img class="album" src="img/anarchy.jpeg" alt="anarchy">
-        <img class="album" src="img/critically.jpg" alt="critically">
-        <img class="album" src="img/pink.png" alt="pink">
-        <img class="album" src="img/realBoy.png" alt="realBoy">
-        <img class="album" src="img/waywf.png" alt="way">
+        <img class="album" id="album1" src="img/anarchy.jpg" alt="anarchy">
+        <img class="album" id="album2" src="img/critically.jpg" alt="critically">
+        <img class="album" id="album3" src="img/pink.jpg" alt="pink">
+        <img class="album" id="album4" src="img/realBoy.jpg" alt="realBoy">
+        <img class="album" id="album5" src="img/waywf.jpg" alt="way">
     </div>
     
-
+	<script>
+	$(document).ready(function() {
+		$(".album").each(function() {
+						TweenLite.to(
+								this,
+								.7,
+								{scale: 1}
+						);
+					})
+		$(".album")
+			.mouseover(function() {
+						$(this)
+						TweenLite.to(
+							this,
+							.7,
+							{scale:2}
+						)
+					})
+					.mouseout(function() {
+						$(this)
+						TweenLite.to(
+							this,
+							.7,
+							{scale:1}
+						)
+					})
+	})
+	</script>
     
 </body>
 
