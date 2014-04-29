@@ -61,6 +61,10 @@
 		})
 			
 		$("#album1").mouseover(function() {
+
+            $(this).offset().x + 150;
+            $(this).offset().y + 300;
+
 			$.get("albums/album1.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Anarchy, My Dear";
