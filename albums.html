@@ -67,19 +67,11 @@
 			
 
 		$("#album1").mouseover(function() {
-
-            $(this).offset().x + 150;
-            $(this).offset().y + 300;
-
-
 		$("#album1").click(function() {
 			$.get("albums/album1.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Anarchy, My Dear";
 			$("#aI").css("background-image","url(img/aiback.png)");
-			TweenLite.to(
-			$("#aI"), .7, {x:500})
-
 			});
 		$("#album2").click(function() {
 			$.get("albums/album2.html", function(data) {
