@@ -64,48 +64,30 @@
 		})
 			
 
-		$("#album1").mouseover(function() {
 		$("#album1").click(function() {
 			$.get("albums/album1.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Anarchy, My Dear";
-<<<<<<< HEAD
-=======
-			$("#aI").css("background-image","url(img/aiback.png)");
-<<<<<<< HEAD
-			TweenLite.to(
-			$("#aI"), .7, {x:500})
-
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
 			});
+
 		$("#album2").click(function() {
 			$.get("albums/album2.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Critically Ashamed";
-<<<<<<< HEAD
 			});	
-		$("#album3").click(function() {
-=======
 
-			});	
 		$("#album3").click(function() {
-			$("#aI").css("background-image","url(img/aiback.png)");
-			TweenLite.to(
-			$("#aI"), .7, {x:600})
-			});
-		$("#album3").mouseover(function() {
->>>>>>> FETCH_HEAD
 			$.get("albums/album3.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Greatest Hits...So Far!!!";
 			});
+
 		$("#album4").click(function() {
 			$.get("albums/album4.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "...Is A Real Boy";
 			});
+
 		$("#album5").click(function() {
 			$.get("albums/album5.html", function(data) {
 			$("#albumInfo").html(data); })
