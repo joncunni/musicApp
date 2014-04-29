@@ -66,7 +66,7 @@
 			albumToFind = "Anarchy, My Dear";
 			$("#aI").css("background-image","url(img/aiback.png)");
 			TweenLite.to(
-			$("aI"), .7, {x:200})
+			$("#aI"), .7, {x:500})
 			});
 			
 		$("#album2").mouseover(function() {
@@ -75,8 +75,8 @@
 			albumToFind = "Critically Ashamed";
 			$("#aI").css("background-image","url(img/aiback.png)");
 			TweenLite.to(
-			$("#aI"), .7, {x:470})
-			});	
+			$("#aI"), .7, {x:600})
+			});
 		$("#album3").mouseover(function() {
 			$.get("albums/album3.html", function(data) {
 			$("#albumInfo").html(data); })
