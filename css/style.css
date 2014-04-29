@@ -125,3 +125,8 @@ html{
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+#container h2{
+    text-align: center;
+    padding-top: 20px;
+}
