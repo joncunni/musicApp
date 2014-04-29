@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcff68c2-71d5-4b51-ac3b-cc951b724c56" name="Default" comment="" />
+    <list default="true" id="bcff68c2-71d5-4b51-ac3b-cc951b724c56" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    </list>
     <ignored path="musicApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,6 +38,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="22" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.0" vertical-offset="1085" max-vertical-offset="1965">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -59,8 +70,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="49" />
+    <option name="x" value="27" />
+    <option name="y" value="37" />
     <option name="width" value="1425" />
     <option name="height" value="932" />
   </component>
@@ -168,7 +179,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="49" width="1425" height="932" extended-state="0" />
+    <frame x="27" y="37" width="1425" height="932" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -290,13 +301,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="811" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="613" selection-end="613" vertical-scroll-proportion="0.029940119" vertical-offset="605" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/albums.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="26" selection-start="889" selection-end="889" vertical-scroll-proportion="0.46239212" vertical-offset="0" max-vertical-offset="811">
@@ -314,6 +318,13 @@
     <entry file="file://$PROJECT_DIR$/.getIgnore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="22" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.0" vertical-offset="1085" max-vertical-offset="1965">
           <folding />
         </state>
       </provider>

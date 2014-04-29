@@ -114,3 +114,13 @@ html{
 #trackInfo li{
 	list-style-type: decimal;	
 }
+
+#albumsBox{
+    margin-top: 50px;
+}
+
+#albumsBox li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
