@@ -45,8 +45,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="116" />
+    <option name="x" value="49" />
+    <option name="y" value="43" />
     <option name="width" value="1425" />
     <option name="height" value="932" />
   </component>
@@ -168,7 +168,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="116" width="1425" height="932" extended-state="0" />
+    <frame x="49" y="43" width="1425" height="932" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -218,11 +218,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
-          <folding>
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -250,11 +246,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
-          <folding>
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -282,11 +274,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="10" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1275">
-          <folding>
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -319,11 +307,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="43" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
-          <folding>
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398355364000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
