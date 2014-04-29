@@ -95,12 +95,22 @@ html{
 }
 
 #aI {
+<<<<<<< HEAD
+	
+	width: 300px;
+	background-color: #00BF83;
+	margin: 0 auto;
+}
+
+#box {
+=======
 	width: 280px;
 	margin-top: -830px;
+>>>>>>> FETCH_HEAD
 }
 
 #albumInfo {
-	padding: 30px 10px 5px 10px;
+	padding: 10px 10px 5px 10px;
 	color: #DB19FF;
 }
 
@@ -116,6 +126,8 @@ html{
 	list-style-type: decimal;	
 }
 
+<<<<<<< HEAD
+=======
 #albumsBox{
     margin-top: 50px;
 }
@@ -130,3 +142,7 @@ html{
     text-align: center;
     padding-top: 20px;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
