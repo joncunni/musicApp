@@ -1,53 +1,14 @@
-<html>
-<head>
-    <title>Music App: album page</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <script src="js/jquery-2.1.0.min.js"></script>
-    <script src="js/minified/TweenLite.min.js"></script>
-    <script src="js/minified/plugins/CSSPlugin.min.js"></script>
-	<script src="js/handlebars-v1.3.0.js"></script>
-    <script src="js/underscore-min.js"></script>
-</head>
-
-<body>
-    <div id="header">
-        <h2>iceCream</h2>
-        <ul id="menu">
-            <li><a href="#"></a>Artists</li>
-            <li><a href="#"></a>Albums</li>
-            <li><a href="#"></a>Search</li>
-            <li><a href="index.html"></a>Home</li>
-        </ul>
-    </div>
-    <div id="container">
-
-        <h1>Albums</h1>
-
+	<div id="albumArt">
         <img class="album" id="album1" src="img/anarchy.jpg" alt="anarchy">
         <img class="album" id="album2" src="img/critically.jpg" alt="critically">
         <img class="album" id="album3" src="img/pink.jpg" alt="pink">
         <img class="album" id="album4" src="img/realBoy.jpg" alt="realBoy">
         <img class="album" id="album5" src="img/waywf.jpg" alt="way">
+        </div>
         <div id="aI" style="visibility:hidden">
 		<div id="albumInfo"></div>
     	<div id="trackInfo"></div>
     	</div>
-    </div>
-    
-      
-    
-    
-        
-    
-     <script id="songHomeLinks" type="text/x-handlebars-template">
-			<ul class="songs_list">
-				{{#each songs}}
-					<li class="songLink" data-id="{{this.id}}">
-						{{this.title}}
-					</li>
-				{{/each}}
-		</ul>
-	 </script>
     
     <script>
 	$(document).ready(function() {
@@ -62,39 +23,61 @@
 		$.getJSON('data/data.json', function(data) {
 			songs = data.songs;
 		})
-			
+		
 
-		$("#album1").click(function() {
+		$("#album1").mouseover(function() {
 			$.get("albums/album1.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Anarchy, My Dear";
+			$("#aI").css("background-image", "url(img/aiback.png)");
+				TweenLite.to(
+				$("#aI"), .7, {x:45})
 			});
 
-		$("#album2").click(function() {
+		$("#album2").mouseover(function() {
 			$.get("albums/album2.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Critically Ashamed";
+			$("#aI").css("background-image", "url(img/aiback.png)")
+			TweenLite.to(
+				$("#aI"), .7, {x:195})
 			});	
 
-		$("#album3").click(function() {
+		$("#album3").mouseover(function() {
 			$.get("albums/album3.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "Greatest Hits...So Far!!!";
+			$("#aI").css("background-image", "url(img/aiback.png)")
+			TweenLite.to(
+				$("#aI"), .7, {x:345})
 			});
 
-		$("#album4").click(function() {
+		$("#album4").mouseover(function() {
 			$.get("albums/album4.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "...Is A Real Boy";
+			$("#aI").css("background-image", "url(img/aiback2.png)")
+			TweenLite.to(
+				$("#aI"), .7, {x:325})
 			});
 
-		$("#album5").click(function() {
+		$("#album5").mouseover(function() {
 			$.get("albums/album5.html", function(data) {
 			$("#albumInfo").html(data); })
 			albumToFind = "What Are You Waiting For";
+			$("#aI").css("background-image", "url(img/aiback2.png)")
+			TweenLite.to(
+				$("#aI"), .7, {x:475})
 			});
 				
 		$(".album").each(function() {
+			$(this)
+			TweenLite.from(
+				this,
+				.7,
+				{scale: .1}
+				)
+			$(this)
 			TweenLite.to(
 				this,
 				.7,
@@ -103,6 +86,9 @@
 			})
 		$(".album")
 			.mouseover(function() {
+				$("#aI").css("visibility", "visible");
+				results.songs = _.where(songs, {album: albumToFind});
+				trackInfo.html(songLinkTemplate(results));
 				$(this)
 					TweenLite.to(
 					this,
@@ -114,18 +100,9 @@
 				TweenLite.to(
 				this,
 				.7,
-				{scale:1}
-				)
+				{scale:1})
 			})
-			.click(function() {
-				$("#aI").css("visibility", "visible");
-				results.songs = _.where(songs, {album: albumToFind});
-				trackInfo.html(songLinkTemplate(results));
-			})
+	
 	})
 	
 	</script>
-    
-</body>
-
-</html>

@@ -1,3 +1,13 @@
 <h1>Greatest Hits...So Far!!!</h1>
-<h2>P!nk</h2>
+<h2 id="pink" class="artistLink">P!nk</h2>
 <h3>Tracks:</h3>
+
+<script>
+$(document).ready(function() {
+    $("#pink").click(function() {
+	$.get("artists/pink.html", function(data) {
+	$("#content").html(data); })
+})
+});
+
+</script>

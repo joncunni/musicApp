@@ -4,6 +4,8 @@
     <title>Music App: home page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/minified/TweenLite.min.js"></script>
+    <script src="js/minified/plugins/CSSPlugin.min.js"></script>
 	<script src="js/handlebars-v1.3.0.js"></script>
     <script src="js/underscore-min.js"></script>
 </head>
@@ -12,19 +14,20 @@
     <div id="header">
         <h2>iceCream</h2>
         <ul id="menu">
-            <li><a href="#"></a>Artists</li>
-            <li><a href="albums.html"></a>Albums</li>
-            <li><a href="#"></a>Search</li>
-            <li><a href="index.html"></a>Home</li>
+            <li id="artistLink">Artists</li>
+            <li id="albumLink">Albums</li>
+            <li>Search</li>
+            <li><a href="#index.html">Home</a></li>
         </ul>
     </div>
     <div id="container">
-        <div id="playInfo">
-            <h3>Now Playing:</h3>
+        <div id="playInfo"><p>Now Playing:</p>
+        <div id="nowPlaying"></div>
+        <input type="button" id="playBtn" class="btns"/><input type="button" id="stopBtn" class="btns"/>
         </div>
         <div id="controls"></div>
         <div id="genresBox"></div>
-        <div id="info"></div>
+        <div id="content"></div>
     </div>
     
      <script id="songHomeLinks" type="text/x-handlebars-template">
@@ -45,21 +48,36 @@
 		</ul>
 		</script>
         
+        <script id="nowPlayInfo" type="text/x-handlebars-template">
+			<div id="playingInfo">{{title}} - {{artist}}</div>
+		</script>
+        
         <!--page script-->
         <script>
 			var songs;
 			
 			$(document).ready(function() {
+				
+				
+				$("#artistLink").click(function() {
+					$.get("artists/sa.html", function(data) {
+						$("#content").html(data);
+					})
+				})
+				$("#albumLink").click(function() {
+					$.get("albums.html", function(data) {
+					$("#content").html(data); })
+				})
 				var genreDiv = $("#genresBox");
-				var songInfo = $("#info");
+				var songInfo = $("#content");
+				var nowPlaying = $("#nowPlaying");
 				
 				var genreLinkTemplate = Handlebars.compile($("#genreLinks").html());
 				var songLinkTemplate = Handlebars.compile($("#songHomeLinks").html());
-				
+				var nowPlayingTemplate = Handlebars.compile($("#nowPlayInfo").html());
 											
 				$.getJSON('data/data.json', function(data) {
 					songs = data.songs;
-					//$("#content").append(bookLinkTemplate(data));
 					genreDiv.html(genreLinkTemplate(data.genres));
 				})
 				
@@ -68,9 +86,17 @@
 					var results={};
 					
 					results.songs = _.where(songs, {genre: genreToFind});
-					
+					console.log(results);
 					songInfo.html(songLinkTemplate(results));
 				})
+				
+				$("#content").on("click", ".songLink", function() {
+					var songPlaying = _.findWhere(songs, {id: $(this).data('id')});
+					nowPlaying.html(" " + nowPlayingTemplate(songPlaying));
+					console.log(songPlaying);
+				})
+				
+				
 			})
 		</script>
     

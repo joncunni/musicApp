@@ -22,7 +22,7 @@ html{
 }
 
 #container{
-    width: 768px;
+    width: 800px;
 	height:1024px;
     background-color: #007F58;
     margin: 0 auto;
@@ -49,18 +49,30 @@ html{
 
 #playInfo{
     width: 550px;
-    height: 50px;
+    height: 100px;
     margin: 0 auto;
-    position: relative;
+	background-color: #00FFF5;
+   	position: relative;
     top: 20px;
-    background-color: #00FFF5;
     border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
 }
 
-#playInfo h3{
-    line-height: 45px;
+#nowPlaying {
+	width: 400px;
+	height: 30px;
+	float: left;
+	line-height: 32px;
+	margin-top: -35px;
+	margin-left: 130px;
+	background: #ffffff;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+#playInfo p{
+	font-size: 18px;
+	line-height: 45px;
+	font-weight: bold;
     margin-left: 10px;
 }
 
@@ -68,16 +80,20 @@ html{
     padding-top: 40px;
 }
 
+li {
+	cursor: pointer;	
+}
+
 #genresBox li{
     list-style: none;
     font-size: 20px;
     font-weight: bold;
-    float: right;
-    margin-right: 145px;
+	float: left;
+	margin-left: 125px;
     cursor: pointer;
 }
 
-#info{
+#content{
     padding-top: 50px;
 }
 
@@ -87,27 +103,31 @@ html{
     margin-left: 15px;
 }
 
+#albumArt{
+	width: 750px;
+	height: 200px;
+	margin: 0 auto;
+}
 .album{
 	width: 100px;
 	height: 100px;
     float: left;
-    margin: 70px 20px 50px 30px;
+    padding: 70px 25px 50px 25px;
 }
 
 #aI {
 	float: left;
-	width: 300px;
-	background-color: #00BF83;
-	margin-left: 250px;
-	margin-top: 20px;
+	width: 280px;
+	margin-top: -15px;
 }
 
 #albumInfo {
-	padding: 10px 10px 5px 10px;
+	padding: 40px 10px 5px 10px;
 	color: #DB19FF;
 }
 
-#albumInfo h1 {
+#container #albumInfo h1 {
+	text-align: left;
 	color:	#FFC019;
 }
 
@@ -129,15 +149,65 @@ html{
     font-weight: bold;
 }
 
-#container h1{
-    text-align: center;
-    padding-top: 20px;
-<<<<<<< HEAD
+.artistLink{
+	text-decoration: underline;	
 }
-=======
+
+#playBtn {
+	background-image: url(../img/playBtn.png);	
 }
-<<<<<<< HEAD
-=======
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+
+#stopBtn {
+	background-image: url(../img/stopBtn.png);	
+}
+
+.btns{
+	width: 30px;
+	height: 30px;
+	background-color: #000000;
+	border: none;
+	border-radius:10px;
+	margin-left: 10px;
+}
+.btns:hover {
+	cursor: pointer;
+	background-color: #333;	
+}
+
+.btns:focus {
+	outline: 0;	
+}
+
+.btns:active {
+	border:black;
+	background-color: #CCC;		
+}
+
+.artistBio {
+	width: 650px;
+	height: 550px;
+ 	position: relative;
+	left: 80px;
+	top: -160px;
+	z-index: 1;
+	border-radius: 20px;
+}
+
+#larrow{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	left: 20px;
+	top: 200px;
+	z-index: 2;
+}
+
+#rarrow {
+	width: 80px;
+	height: 80px;	
+	position: relative;
+	left: 700px;
+	top: 120px;
+	z-index: 2;
+}
+

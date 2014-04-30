@@ -1,0 +1,45 @@
+<div id="larrow"><img src="img/larrow.png"/></div>
+<div id="rarrow"><img src="img/rarrow.png"/></div>
+<div class="artistBio"><img src="img/sa.png"></div>
+
+<script>
+$(document).ready(function() {
+  $(".artistBio").each(function() {
+	  $(this)
+	  TweenLite.from(
+		  this,
+		  .7,
+		  {opacity: 0}
+		  )
+	  $(this)
+	  TweenLite.to(
+		  this,
+		  .7,
+		  {opacity: 1}
+		  )
+	  })
+  $("#larrow").click(function() {
+	  $.get("artists/fm.html", function(data) {
+	  $("#content").html(data); }) 
+  })
+  
+   $("#rarrow").click(function() {
+	  $.get("artists/pink.html", function(data) {
+	  $("#content").html(data); }) 
+  })
+  
+  $("#larrow").mouseover(function() {
+	TweenLite.to(this, .1, {x: -10})  
+  })
+  $("#larrow").mouseout(function() {
+	TweenLite.to(this, .1, {x:0})  
+  })
+  $("#rarrow").mouseover(function() {
+	TweenLite.to(this, .1, {x: 10})  
+  })
+  $("#rarrow").mouseout(function() {
+	TweenLite.to(this, .1, {x:0})  
+  })
+})
+</script>
+

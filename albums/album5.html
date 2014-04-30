@@ -1,3 +1,12 @@
 <h1>What Are You Waiting For</h1>
-<h2>FM Static</h2>
+<h2 id="fm" class="artistLink">FM Static</h2>
 <h3>Tracks:</h3>
+
+<script>
+$(document).ready(function() {
+    $("#fm").click(function() {
+	$.get("artists/fm.html", function(data) {
+	$("#content").html(data); })
+})
+});
+</script>

@@ -1,3 +1,13 @@
 <h1>Anarchy, My Dear</h1>
-<h2><a href="sayAnything.html">Say Anything</a></h2>
+<h2 id="sayAnything" class="artistLink">Say Anything<h2>
 <h3>Tracks:</h3>
+
+<script>
+$(document).ready(function() {
+  $("#sayAnything").click(function() {
+	  $.get("artists/sa.html", function(data) {
+	  $("#content").html(data); })
+	  
+  })
+})
+</script>

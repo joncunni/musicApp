@@ -1,3 +1,12 @@
 <h1>...Is A Real Boy</h1>
-<h2>Say Anything</h2>
+<h2 id="sayAnything" class="artistLink">Say Anything</h2>
 <h3>Tracks:</h3>
+
+<script>
+$(document).ready(function() {
+$("#sayAnything").click(function() {
+	$.get("artists/sa.html", function(data) {
+	$("#content").html(data); })
+})
+})
+</script>

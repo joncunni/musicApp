@@ -1,3 +1,13 @@
 <h1>Critically Ashamed</h1>
-<h2>FM Static</h2>
+<h2 id="fm1" class="artistLink">FM Static</h2>
 <h3>Tracks:</h3>
+
+<script>
+$(document).ready(function() {
+    $("#fm1").click(function() {
+	$.get("artists/fm.html", function(data) {
+	$("#content").html(data); })
+})
+});
+
+</script>
