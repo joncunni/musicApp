@@ -16,8 +16,7 @@
         <ul id="menu">
             <li id="artistLink">Artists</li>
             <li id="albumLink">Albums</li>
-            <li>Search</li>
-            <li><a href="#index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
         </ul>
     </div>
     <div id="container">
@@ -26,6 +25,11 @@
             <input type="" id="searchBox">
             <input type="button" id="submit" value="Search">
         </div>
+
+        <div id="results">
+
+        </div>
+
         <div id="playInfo"><p>Now Playing:</p>
         <div id="nowPlaying"></div>
         <input type="button" id="playBtn" class="btns"/><input type="button" id="stopBtn" class="btns"/>
@@ -76,6 +80,9 @@
 				var genreDiv = $("#genresBox");
 				var songInfo = $("#content");
 				var nowPlaying = $("#nowPlaying");
+                var searchResults = $("#results");
+
+
 				
 				var genreLinkTemplate = Handlebars.compile($("#genreLinks").html());
 				var songLinkTemplate = Handlebars.compile($("#songHomeLinks").html());
@@ -100,6 +107,31 @@
 					nowPlaying.html(" " + nowPlayingTemplate(songPlaying));
 					console.log(songPlaying);
 				})
+
+                $("#submit").click(function(){
+                    var searchTerm = $("#searchBox").val();
+
+                    var results = {
+                        songs: []
+                    }
+
+                    results.songs = _.filter(songs, function(item) {
+                        (item.title.indexOf(searchTerm) != -1);
+
+                        var titleSplit = item.title.split(" ");
+                        return _.find(titleSplit, function(titleWord) {
+                            return titleWord.toUpperCase() == searchTerm.toUpperCase();
+                        })
+                    })
+
+                    searchResults.html("<h2>Results</h2>" + songLinkTemplate(results));
+
+                    $("#results").on("click", ".songLink", function() {
+                        var songPlaying = _.findWhere(songs, {id: $(this).data('id')});
+                        nowPlaying.html(" " + nowPlayingTemplate(songPlaying));
+                        console.log(songPlaying);
+                    })
+                })
 				
 				
 			})

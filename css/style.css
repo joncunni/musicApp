@@ -41,10 +41,19 @@ html{
 
 #menu li{
     list-style: none;
+    text-decoration: none;
     float: right;
     margin-right: 15px;
     line-height: 45px;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu a:visited{
+    text-decoration: none;
 }
 
 #playInfo{
@@ -95,6 +104,10 @@ li {
 
 #content{
     padding-top: 50px;
+}
+
+#content li{
+    padding-bottom: 5px;
 }
 
 #info li{
@@ -244,5 +257,21 @@ li {
     position: absolute;
     top: 14px;
     left: 555px;
+}
+
+#results{
+    width: 550px;
+    background-color: #00FFF5;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#results li{
+    padding-bottom: 5px;
+}
+
+#results h2{
+    text-align: center;
 }
 
