@@ -73,8 +73,10 @@
 				var songInfo = $("#content");
 				var nowPlaying = $("#nowPlaying");
                 var searchResults = $("#results");
+				var playBtn = document.getElementById("playBtn");
 				var stopBtn = document.getElementById("stopBtn");
 				var myAudio = document.getElementById("myAudio");
+				var isPlaying = false;
 
 				$("#artistLink").click(function() {
 					$.get("artists/sa.html", function(data) {
@@ -113,6 +115,7 @@
 					nowPlaying.html(" " + nowPlayingTemplate(songPlaying));
 					myAudio.setAttribute("src", songPlaying.file);
 					myAudio.play();
+					isPlaying = true;
 				})
 
                 $("#submit").click(function(){
@@ -139,11 +142,28 @@
                         console.log(songPlaying);
 						myAudio.setAttribute("src", songPlaying.file);
 						myAudio.play();
+						isPlaying = true;
                     })
                 })
 				
-				stopBtn.addEventListener('click', function(event) {
+				
+				playBtn.addEventListener('click', function(event) {
+					if(isPlaying == true) {
 					myAudio.pause();
+					$("#playBtn").css("background-image", "url(img/playBtn.png)");
+					isPlaying = false;
+					} else {
+					myAudio.play();
+					isPlaying = true;
+					$("#playBtn").css("background-image", "url(img/pause.png)");	
+					}
+					
+				})
+				
+				stopBtn.addEventListener('click', function(event) {
+					myAudio.load();
+					isPlaying = false;
+					$("#playBtn").css("background-image", "url(img/playBtn.png)");
 				})
 
 			})
