@@ -85,9 +85,10 @@
 					$.get("albums.html", function(data) {
 					$("#content").html(data); })
 				})
-				
-				
-				
+				var genreDiv = $("#genresBox");
+				var songInfo = $("#content");
+				var nowPlaying = $("#nowPlaying");
+                var searchResults = $("#results");
 
 				var genreLinkTemplate = Handlebars.compile($("#genreLinks").html());
 				var songLinkTemplate = Handlebars.compile($("#songHomeLinks").html());

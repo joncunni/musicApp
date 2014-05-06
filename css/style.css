@@ -41,10 +41,19 @@ html{
 
 #menu li{
     list-style: none;
+    text-decoration: none;
     float: right;
     margin-right: 15px;
     line-height: 45px;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu a:visited{
+    text-decoration: none;
 }
 
 #playInfo{
@@ -95,6 +104,10 @@ li {
 
 #content{
     padding-top: 50px;
+}
+
+#content li{
+    padding-bottom: 5px;
 }
 
 #info li{
@@ -150,7 +163,8 @@ li {
 }
 
 .artistLink{
-	text-decoration: underline;	
+	text-decoration: underline;
+    cursor: pointer;
 }
 
 #playBtn {
@@ -209,5 +223,55 @@ li {
 	left: 700px;
 	top: 120px;
 	z-index: 2;
+}
+
+#search{
+    width: 650px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #00FFF5;
+    position: relative;
+    margin-bottom: 20px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+#search p{
+    font-weight: bold;
+    line-height: 45px;
+    padding-left: 10px;
+}
+
+#searchBox{
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 450px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#submit{
+    width: 70px;
+    position: absolute;
+    top: 14px;
+    left: 555px;
+}
+
+#results{
+    width: 550px;
+    background-color: #00FFF5;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#results li{
+    padding-bottom: 5px;
+}
+
+#results h2{
+    text-align: center;
 }
 
